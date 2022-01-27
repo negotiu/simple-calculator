@@ -1,0 +1,14 @@
+﻿Console.WriteLine("kalkulačka");
+Console.WriteLine("zadejte číslo:");
+float a = float.Parse(Console.ReadLine());
+Console.WriteLine("zadejte druhé číslo:");
+float b = float.Parse(Console.ReadLine());
+float soucet = a + b;
+float rozdil = a - b;
+float soucin = a * b;
+float podil = a / b;
+Console.WriteLine("součet: " + soucet);
+Console.WriteLine("rozdíl: " + rozdil);
+Console.WriteLine("součin: " + soucin);
+Console.WriteLine("podíl: " + podil);
+Console.WriteLine("thats all !!!");
